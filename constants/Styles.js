@@ -7,12 +7,18 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     paddingHorizontal: 10,
   },
+  gamesBackground: {
+    flex: 1,
+    backgroundColor: "#54c3e9",
+    justifyContent: "center",
+    paddingHorizontal: 10,
+  },
   button: {
     alignItems: "center",
     marginTop: 20,
     paddingVertical: 10,
     paddingHorizontal: 10,
-    backgroundColor: "#3498db",
+    backgroundColor: "white"
   },
   imageView: { height: "20%", width: "100%" },
   imageLogo: {
@@ -33,23 +39,25 @@ const styles = StyleSheet.create({
     fontFamily: "Avenir",
     fontWeight: "600",
     fontSize: 18,
-    color: "white",
+    color: "#3498db",
   },
   timerText: {
     fontFamily: "Avenir",
     fontWeight: "700",
     fontSize: 24,
-    color: "#e74c3c",
+    color: "white",
     textAlign: "center",
-    marginBottom: 30,
+    marginBottom: 3,
+    marginTop: 2
   },
   scoreText: {
     fontFamily: "Avenir",
     fontWeight: "700",
-    fontSize: 24,
-    color: "#3498db",
+    fontSize: 20,
+    color: "#025b7a",
     textAlign: "center",
     marginBottom: 10,
+    marginTop: 28
   },
 });
 
