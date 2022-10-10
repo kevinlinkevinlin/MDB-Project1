@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     color: "white",
     textAlign: "center",
     marginBottom: 3,
-    marginTop: 2
+    marginTop: 2,
   },
   scoreText: {
     fontFamily: "Avenir",
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     color: "#025b7a",
     textAlign: "center",
     marginBottom: 10,
-    marginTop: 28
+    marginTop: 28,
   },
 });
 
